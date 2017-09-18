@@ -1,4 +1,4 @@
-﻿{
+{
     "name": "beyosoft/multiworker",
     "description": "Multiworker是纯PHP实现的多进程管理器，使用master-worker进程模型，适用于命令行下的多进程调度、并发处理、工作进程崩溃自动恢复、单实例限制。",
     "type": "library",
@@ -9,7 +9,9 @@
             "email": "zhangxugg@163.com"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {"beyosoft\\cli\\": "."}
-    },
+    }
 }
