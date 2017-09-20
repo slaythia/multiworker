@@ -9,7 +9,7 @@
             "email": "zhangxugg@163.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {"beyosoft\\cli\\": "."}
